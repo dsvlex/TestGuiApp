@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGuiApp", "TestGuiApp\TestGuiApp.csproj", "{CFA310CE-054F-40ED-9294-E2F415437581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{3B0346FB-0809-403C-BED2-F4EA8AFC5343}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C391EF90-FBC6-4FF1-BABE-B092D1FEB901}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TestGuiApp.vsmdi = TestGuiApp.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupTGA", "SetupTGA\SetupTGA.vdproj", "{ADE31328-36F7-415D-9802-C76412813A69}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = TestGuiApp.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFA310CE-054F-40ED-9294-E2F415437581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFA310CE-054F-40ED-9294-E2F415437581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFA310CE-054F-40ED-9294-E2F415437581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFA310CE-054F-40ED-9294-E2F415437581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B0346FB-0809-403C-BED2-F4EA8AFC5343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B0346FB-0809-403C-BED2-F4EA8AFC5343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B0346FB-0809-403C-BED2-F4EA8AFC5343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B0346FB-0809-403C-BED2-F4EA8AFC5343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADE31328-36F7-415D-9802-C76412813A69}.Debug|Any CPU.ActiveCfg = Debug
+		{ADE31328-36F7-415D-9802-C76412813A69}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
